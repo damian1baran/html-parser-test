@@ -67,18 +67,6 @@ for i in list1:
 
     root = lxml.html.fromstring(html)
 
-    obec = " " * 5
-    kraj = " " * 5
-    okres = " " * 5
-    region = " " * 5
-    ico = " " * 5
-    obyvatelov = " " * 5
-    starosta = " " * 5
-    mobil = " " * 5
-    telefon = " " * 5
-    email = " " * 5
-    web = " " * 5
-
     obec = root.xpath(obec_exp)
     kraj = root.xpath(kraj_exp)
     okres = root.xpath(okres_exp)
@@ -114,17 +102,3 @@ for i in list1:
 
     # CSV view
     print obec[0] + "," + kraj[0] + "," + okres[0] + "," + region[0] + "," + obyvatelov[0] + "," + starosta[0] + "," + mobil[0] + "," + telefon[0] + "," + email[0] + "," + web[0]
-
-
-    # Summary view
-    # print obec[0]
-    # print kraj[0]
-    # print okres[0]
-    # print region[0]
-    # print ico[0]
-    # print obyvatelov[0]
-    # print starosta[0]
-    # print mobil[0]
-    # print telefon[0]
-    # print email[0]
-    # print web[0]
