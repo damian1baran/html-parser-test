@@ -1,6 +1,4 @@
 import urllib2
-from lxml import etree
-
 import lxml.html
 
 url = "https://www.e-obce.sk/obec/trnovo/trnovo.html"
