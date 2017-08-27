@@ -101,4 +101,4 @@ for i in list1:
         web = " " * 5
 
     # CSV view
-    print obec[0] + "," + kraj[0] + "," + okres[0] + "," + region[0] + "," + obyvatelov[0] + "," + starosta[0] + "," + mobil[0] + "," + telefon[0] + "," + email[0] + "," + web[0]
+    print obec[0] + ";" + kraj[0] + ";" + okres[0] + ";" + region[0] + ";" + obyvatelov[0] + ";" + starosta[0] + ";" + mobil[0] + ";" + telefon[0] + ";" + email[0] + ";" + web[0]
